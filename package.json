@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "webpack",
+    "fail": "WEBPACK_CSS=true webpack"
+  },
+  "dependencies": {
+    "webpack": "5.92.0",
+    "webpack-cli": "5.1.4"
+  }
+}
